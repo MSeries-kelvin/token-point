@@ -7,7 +7,7 @@
 .container {
     width: 100vw;
     height: 100vh;
-    max-width: 400px;
+    max-width: 450px;
     background-color: #333;
     position: relative;
     overflow: hidden;
