@@ -14,7 +14,7 @@
 }
 
 .inner-main-container {
-    width: calc(100% - 40px);
+    width: calc(100% - 30px);
     padding: 15px;
     margin: 10px auto;
 }
@@ -176,7 +176,7 @@ body {
     background-color: transparent;
     outline: none;
     padding: 10px 10px;
-    border-radius: 10px;
+    border-radius: 5px;
     cursor: pointer;
     border: 2px solid var(--main-color);
     font-size: 20px;
@@ -219,7 +219,7 @@ body {
 
 /* ---------------------- customer info ---------------------*/
 .outer-customer-info-container {
-    width: calc(100% - 40px);
+    width: calc(100% - 30px);
     border-radius: 20px;
     margin: 10px auto;
     color: var(--text-color);
