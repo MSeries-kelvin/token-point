@@ -13,6 +13,12 @@
     overflow: hidden;
 }
 
+.inner-main-container {
+    width: calc(100% - 40px);
+    padding: 15px;
+    margin: 10px auto;
+}
+
 :root {
     --main-color: #79c4b0;
     --hover-main-color: #96e9d3;
@@ -136,11 +142,8 @@ body {
 /* -------------- main info -------------- */
 
 .main-info-container {
-    width: 95%;
     background-color: #555;
     border-radius: 10px;
-    padding: 15px;
-    margin: 10px auto;
     color: var(--text-color);
 }
 
@@ -149,8 +152,9 @@ body {
 }
 
 .pending-balance {
-    font-size: 20px;
-    margin: 5px 0;
+    font-size: 25px;
+    margin: 10px 0 15px;
+    font-weight: bold;
 }
 
 .pending-balance span {
@@ -170,13 +174,12 @@ body {
 
 .main-buttons-container button {
     background-color: transparent;
-    border: none;
     outline: none;
-    padding: 13px 10px;
+    padding: 10px 10px;
     border-radius: 10px;
     cursor: pointer;
     border: 2px solid var(--main-color);
-    font-size: 16px;
+    font-size: 20px;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -216,7 +219,7 @@ body {
 
 /* ---------------------- customer info ---------------------*/
 .outer-customer-info-container {
-    width: 95%;
+    width: calc(100% - 40px);
     border-radius: 20px;
     margin: 10px auto;
     color: var(--text-color);
@@ -232,7 +235,7 @@ body {
     gap: 5px;
     /* background-color: #555; */
     border-radius: 30px;
-    padding: 3px 10px;
+    padding: 3px 20px 3px 3px;
     transition: .3s;
     cursor: pointer;
     align-items: center;
